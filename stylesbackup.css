@@ -1,0 +1,200 @@
+body {
+    background-color: #FFF8F0;
+    color: #55206D;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.bienvenida{
+    color: black;
+    font-size: 50px;
+    width: 800px;
+    text-align: center;
+    margin: 200px auto 0 auto;
+    padding: 50px;
+    background-color: rgb(172, 210, 224);
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px rgb(201, 199, 199);
+
+}
+
+.menuBotones{
+    width: 300px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.menuBotones a{
+    background-color: #9e79af;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    box-shadow: 7px 7px 5px rgb(160, 160, 160);
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+
+#selfie {
+    border-radius: 10% 50%;
+    display: block;
+    max-width: 500px;
+    width: 50%;
+    margin: 40PX auto;
+    box-shadow: 10px 10px 5px rgb(160, 160, 160);
+}
+
+.perfil {
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#linkedin {
+    display: block;
+    max-width: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.button {
+    background-color: #9e79af;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 8px 12px;
+    width: 240px;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 7px 7px 5px rgb(160, 160, 160);
+
+}
+
+.tablaLaboral {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.fila1 {
+    color: black
+}
+
+.fila1 th {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: #B5C0D0;
+
+}
+
+.fila2 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: #ffffff;
+}
+
+.fila3 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: #ffffff;
+}
+
+.fila4 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: #ffffff;
+
+}
+
+.gustos {
+    border-radius: 20px;
+    max-width: 1300px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #f3f4f5;
+}
+
+.receta {
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 800px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.dibujos {
+    margin: 20px 180px;
+    padding-left: 85px;
+    display: flex;
+}
+
+.dibujo {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+    box-shadow: 0 0 7px 7px rgb(190, 190, 190);
+}
+
+.videojuegos {
+    margin: 20px 15px;
+}
+
+.juego {
+    width: 300px;
+    height: 380px;
+    box-shadow: 0 0 7px 7px rgb(190, 190, 190);
+
+}
+
+.peliculas {
+    margin: 20px 90px;
+    display: flex;
+}
+
+.pelicula {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+    box-shadow: 0 0 5px 5px  rgb(190, 190, 190);
+}
+
+.viajes {
+    margin: 20px 90px;
+    display: flex;
+}
+
+.polaroid {
+    width: 300px;
+    padding: 7px;
+    margin: 0 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 7px 7px rgb(190, 190, 190);
+    }
+
+.viaje {
+    width: 300px;
+    height: 400px;
+}
+
+.caption {
+    padding: 0 0 7px 0;
+    background-color: white;
+}
