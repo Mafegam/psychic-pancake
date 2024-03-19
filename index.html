@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="Icono.png" type="icono de pestaña">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesIndex.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,45 +17,49 @@
 
 <body background="Kaedehara.Kazuha.full.3426773.jpg " style="background-repeat:space;">
 
-    <div class="bienvenida">
-        <script>
-            let nombre = prompt("Ingresa tu nombre")
-    
-            if (nombre === null) {
-                document.write("Por favor intenta nuevamente");
-            } else {
-                switch (nombre) {
-                    case (""):
-                        document.write("¡Bienvenid@ a mi página! ¿A dónde deseas ir?");
-                        break;
-    
-                    default:
-                        document.write("Hola " + nombre + ", bienvenid@ a mi página. ¿A dónde deseas ir?");
-                        break;
-                }
-            }
-        </script>
-    </div>
+    <div class="deslizar">
+        <div class="bienvenida">
+            <script>
+                let nombre = prompt("Ingresa tu nombre")
 
-    <!-- PERFIL PROFESIONAL -->
+                if (nombre === null) {
+                    document.write("BIENVENID@");
+                } else {
+                    switch (nombre) {
+                        case (nombre):
+                            document.write("BIENVENID@ " + nombre);
+                            break;
+
+                    }
+                }
+            </script>
+        </div>
+
+        <div class="textoBienvenida">
+            Gracias por visitar mi página, ¿a dónde deseas ir?
+        </div>
+
+    </div>
 
     <div class="menuBotones">
+        <!-- PERFIL PROFESIONAL -->
+        <div class="boton1">
 
-        <div>
-            <a href="profesional.html">IR A PERFIL PROFESIONAL</a>
+            <a class="botonHover" href="profesional.html">IR A PERFIL PROFESIONAL</a>
+
         </div>
+        <br>
+        <!-- PERFIL PERSONAL -->
 
-<br>
-    <!-- PERFIL PERSONAL -->
+        <div class="boton2">
 
-        <div>
-            <a href="personal.html">IR A PERFIL PERSONAL</a>
+            <a class="botonHover" href="personal.html">IR A PERFIL PERSONAL</a>
+
         </div>
-
 
     </div>
-
-
+    </div>
+    </div>
 </body>
 
 
