@@ -1,0 +1,202 @@
+
+body {
+    background-color: #1D234D;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.fondoContenido {
+    background: linear-gradient(343deg, rgba(43, 47, 83, 1) 0%, rgba(40, 28, 52, 1) 100%);
+    border-radius: 0 0 20px 20px;
+    max-width: 1400px;
+    margin: 0 auto 0px auto;
+    padding: 0 0 30px 0;
+    border: 1px solid rgb(134, 113, 236,.2);
+
+}
+
+
+.parteSuperior {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    border-bottom: 1px solid rgb(134, 113, 236,.2);
+}
+
+#selfie {
+    width: 1400px;
+    height: 500px;
+    object-fit:cover;
+    
+}
+
+.perfil {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    padding: 0 30px;
+    width: 712px;
+    height: 500px;
+    color: #FFFFFF;
+    font-weight: 200;
+    background: linear-gradient(0deg, rgba(55, 36, 122, 0.808) 0%, rgba(41, 29, 68, 0.082) 70%);
+} 
+
+.iconos {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+#linkedin {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+#github {
+    max-width: 60px;
+    margin-left: 10px;
+}
+
+
+.button {
+    background: linear-gradient(0deg, rgba(128, 21, 167, 0.6587009803921569) 0%, rgba(40, 28, 52, 0) 100%);
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 8px 12px;
+    width: 240px;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: rgb(0, 235, 255);
+    background: linear-gradient(343deg, rgba(0, 235, 255, 1) 0%, rgba(167, 62, 231, 1) 100%);
+    color: black;
+}
+
+.experienciaLaboral{
+    background: linear-gradient(180deg, rgba(197,56,247,0) 0%, rgba(158,39,251,0.2945553221288515) 100%);
+    padding: 10px;
+    border-bottom: 1px solid rgb(134, 113, 236,.6);
+}
+
+.tablaLaboral {
+    width: 800px;
+    margin: 20px auto;
+    background: linear-gradient(124deg, rgba(107, 58, 175, 1) 32%, rgba(13, 226, 213, 1) 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fila1 {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(63, 63, 63);
+}
+
+
+.fila1 th {
+    padding: 5px;
+
+}
+
+.fila2 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: rgb(255, 255, 255, .5);
+    opacity: 10;
+}
+
+.fila3 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: rgb(255, 255, 255, .5);
+}
+
+.fila4 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: rgb(255, 255, 255, .5);
+}
+
+.piedepagina {
+    font-family: "Poppins";
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .fondoContenido{
+        margin: 0 10px;
+    }
+    
+    .parteSuperior {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        height: auto;
+    }
+
+    #selfie {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .perfil {
+        width: 360px; 
+        text-align: center;
+        height: 300px;
+        padding: 0;
+      
+    }
+
+    .iconos {
+        flex-direction: row; 
+        margin: 20px 0; 
+        justify-content: center; 
+    }
+
+    .button {
+        width: 80%; 
+        margin: 20px auto 40px auto;
+    }
+
+    .infoLaboral {
+        padding: 0px; 
+    }
+
+    .tablaLaboral {
+        max-width: 50%; 
+        margin: 15px auto;
+    }
+
+    .experienciaLaboral {
+        font-size: 20px; 
+        max-width: 100%;
+    }
+
+    .fila1 th,
+    .fila2 td,
+    .fila3 td,
+    .fila4 td {
+        font-size: 16px;
+    }
+}

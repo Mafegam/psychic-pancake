@@ -1,125 +1,138 @@
-body {
-    /* background: rgb(44,48,84);
-    background: linear-gradient(198deg, rgba(44,48,84,1) 0%, rgba(30,28,52,1) 100%); */
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    margin: 0;
-}
-
-.bienvenida {
-    font-family: "Roboto", sans-serif;
-    color: black;
-    font-size: 50px;
-    width: 800px;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin: 300px auto auto 120px;
-
-}
-
-.textoBienvenida {
-    margin: 20px auto auto 120px;
-    font-size: 20px;
-}
-
-.menuBotones {
-    width: 300px;
-    text-align: center;
-    margin: 20px auto auto 120px;
-}
-
-.deslizar {
-    animation: deslizar 1s;
-}
-
-.boton1 {
-    animation: deslizar 1s;
-    animation-delay: 0.2s;
-    animation-fill-mode: both;
-}
-
-.boton2 {
-    animation: deslizar 1s;
-    animation-delay: 0.3s;
-    animation-fill-mode: both;
-}
-
-@keyframes deslizar{
-    0% {
-        transform: translateX(-100px);
+ /* MEDIA QUERIES */
+ /* Teléfonos */
+ @media screen and (max-width: 767px){
+    .textoBienvenida {
+        margin: 20px auto;
+        font-size: 16px; 
     }
 
-    100% {
-        transform: translateX(0px);
-    }
+ }
 
-    0% {
-        opacity: 0;
 
-    }
 
-    100% {
-        opacity: 1;
-    }
-}
 
-@keyframes boton1{
-    0% {
-        transform: translateX(-150px);
-    }
 
-    100% {
-        transform: translateX(0px);
-    }
+ body {
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+     margin: 0;
+     max-height: 1080px;
+ }
 
-    0% {
-        opacity: 0;
+ .bienvenida {
+     font-family: "Roboto", sans-serif;
+     color: black;
+     font-size: 50px;
+     width: 800px;
+     text-transform: uppercase;
+     font-weight: 500;
+     margin: 300px auto auto 120px;
 
-    }
+ }
 
-    100% {
-        opacity: 1;
-    }
-}
+ .textoBienvenida {
+     margin: 20px auto auto 120px;
+     font-size: 20px;
+ }
 
-@keyframes boton2{
-    0% {
-        transform: translateX(-200px);
-    }
+ .menuBotones {
+     width: 300px;
+     text-align: center;
+     margin: 20px auto auto 120px;
+ }
 
-    100% {
-        transform: translateX(0px);
-    }
+ .deslizar {
+     animation: deslizar 1s;
+ }
 
-    0% {
-        opacity: 0;
+ .boton1 {
+     animation: deslizar 1s;
+     animation-delay: 0.2s;
+     animation-fill-mode: both;
+ }
 
-    }
+ .boton2 {
+     animation: deslizar 1s;
+     animation-delay: 0.3s;
+     animation-fill-mode: both;
+ }
 
-    50%{
-        opacity: 0;
-    }
+ @keyframes deslizar {
+     0% {
+         transform: translateX(-100px);
+     }
 
-    100% {
-        opacity: 1;
-    }
-}
+     100% {
+         transform: translateX(0px);
+     }
 
-.botonHover {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    display: block;
-    width: 250px;
-    padding: 20px 50px;
-    text-decoration: none;
-}
+     0% {
+         opacity: 0;
 
-.botonHover:hover {
-    background-color: rgb(255, 255, 255,.5);
-    color: black;
-    border: 1px solid rgb(0, 0, 0);
-}
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @keyframes boton1 {
+     0% {
+         transform: translateX(-150px);
+     }
+
+     100% {
+         transform: translateX(0px);
+     }
+
+     0% {
+         opacity: 0;
+
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @keyframes boton2 {
+     0% {
+         transform: translateX(-200px);
+     }
+
+     100% {
+         transform: translateX(0px);
+     }
+
+     0% {
+         opacity: 0;
+
+     }
+
+     50% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ .botonHover {
+     background-color: rgba(0, 0, 0, .5);
+     border-radius: 10px;
+     border: 1px solid rgb(255, 255, 255);
+     font-family: "Roboto", sans-serif;
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     display: block;
+     width: 250px;
+     padding: 20px 50px;
+     text-decoration: none;
+ }
+
+ .botonHover:hover {
+     background-color: rgb(255, 255, 255, .5);
+     color: black;
+     border: 1px solid rgb(0, 0, 0);
+ }

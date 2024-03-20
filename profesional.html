@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="Icono.png" type="icono de pestaña">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesProfesional.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Perfil profesional</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,32 +16,42 @@
 
 <body>
     <!-- INTRODUCCION -->
-    <div class="parte-superior">
+    <div class="fondoContenido">
 
         <main>
-            <h1>PERFIL PROFESIONAL</h1>
-            <img id="selfie" src="selfie.jpg">
 
-            <p class="perfil">
-                Soy una persona ambiciosa y con grandes metas a futuro en las que trabajo día a día.
-                Actualmente trabajo como coordinadora logística de carga para una empresa Canadiense. Mi experiencia
-                está fuertemente estrecha con la cultura Norteamericana y el siguiente paso es convertirme en
-                desarrolladora web para seguir avanzando en mi carrera profesiona.
-            </p>
+            <div class="parteSuperior">
+                <img id="selfie" src="./multimedia/selfie.jpg">
 
+                <p class="perfil">
+                    Soy una persona ambiciosa y con grandes metas a futuro en las que trabajo día a día.
+                    Actualmente trabajo como coordinadora logística de carga para una empresa Canadiense. Mi experiencia
+                    está fuertemente estrecha con la cultura Norteamericana y el siguiente paso es convertirme en
+                    desarrolladora web para seguir avanzando en mi carrera profesiona.
+                </p>
+
+            </div>
 
             <!-- POR QUE SE MUESTRA COMO INLINE SI ES BLOCK? -->
 
-            <a target="_blank" href="https://www.linkedin.com/in/mafe-gamboa-703515243/"><img id="linkedin"
-                    src="LinkedIn.png"></a>
+            <div class="iconos">
+
+                <a target="_blank" href="https://www.linkedin.com/in/mafe-gamboa-703515243/"><img id="linkedin"
+                        src="./multimedia/LinkedIn.png"></a>
+
+                <a target="_blank" href="https://github.com/Mafegam"><img id="github" src="./multimedia/github.png"></a>
+           
+            </div>
+
 
             <a class="button" target="_blank" href="personal.html">IR A PERFIL PERSONAL</a>
 
         </main>
+
         <!-- EXPERIENCIA LABORAL -->
 
         <div class="infoLaboral">
-            <h2>ACERCA DE MI EXPERIENCIA LABORAL</h2>
+            <h2 class="experienciaLaboral">ACERCA DE MI EXPERIENCIA LABORAL</h2>
             <table class="tablaLaboral">
                 <tr class="fila1">
                     <th>EMPRESA</th>
@@ -73,7 +83,7 @@
         </div>
     </div>
 
-    
+
 
 
     <br>
