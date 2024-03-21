@@ -26,7 +26,7 @@ h2 {
     width: 1440px;
     height: 600px;
     object-fit: none;
-    border-top: 1px solid rgb(134, 113, 236,.2);
+    border-top: 1px solid rgb(134, 113, 236, .2);
 
 }
 
@@ -34,7 +34,7 @@ h2 {
     position: absolute;
     text-align: center;
     font-size: 25px;
-    text-shadow: 1px 1px 2px pink;;
+    text-shadow: 1px 1px 2px pink;
     width: 600px;
     color: white;
     background: linear-gradient(180deg, rgba(72, 49, 157, 0.6676432291666667) 0%, rgba(72, 49, 157, 0) 100%);
@@ -47,18 +47,20 @@ h2 {
     max-width: 1440px;
     margin: 600px auto 50px auto;
     background: linear-gradient(343deg, rgba(43, 47, 83, 1) 0%, rgba(40, 28, 52, 1) 100%);
-    border-bottom: 1px solid rgb(134, 113, 236,.2);
+    border-bottom: 1px solid rgb(134, 113, 236, .2);
 
 }
 
-.meGusta{
-    background: linear-gradient(180deg, rgba(197,56,247,0) 0%, rgba(158,39,251,0.2945553221288515) 100%);
+.meGusta {
+    background: linear-gradient(180deg, rgba(197, 56, 247, 0) 0%, rgba(158, 39, 251, 0.2945553221288515) 100%);
     padding: 10px;
-    border-bottom: 1px solid rgb(134, 113, 236,.6);
+    border-bottom: 1px solid rgb(134, 113, 236, .6);
 }
 
 .gustos li {
-    margin: 20px 0;
+    margin: 20px 30px;
+    color: white;
+    font-size: 18px;
 }
 
 .dibujos {
@@ -106,8 +108,8 @@ h2 {
     width: 300px;
     margin: 0 20px;
     text-align: center;
-    background: linear-gradient(180deg, rgba(72,49,157,1) 66%, rgba(72,49,157,0) 98%);
-    border: 2px solid rgb(134, 113, 236,.2);
+    background: linear-gradient(180deg, rgba(72, 49, 157, 1) 66%, rgba(72, 49, 157, 0) 98%);
+    border: 2px solid rgb(134, 113, 236, .2);
 
 }
 
@@ -125,7 +127,7 @@ h2 {
 .video {
     margin: 40px auto;
     display: flex;
-    box-shadow: 0 0 7px 7px rgba(177, 39, 165, 0.446);
+    border: 2px solid rgb(134, 113, 236);
 }
 
 .button {
@@ -158,4 +160,112 @@ h2 {
     text-align: center;
     padding: 20px;
     margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    body{
+        width: 400px;
+    }
+
+    #vaporwave{
+        width: 400px;
+        }
+
+    .cita {
+        text-align: center;
+        font-size: 16px;
+        text-shadow: 1px 1px 2px pink;
+        width: 300px;
+        color: white;
+        background: linear-gradient(180deg, rgba(72, 49, 157, 0.6676432291666667) 0%, rgba(72, 49, 157, 0) 100%);
+        padding: 20px 50px 100px;
+        top: 370px;
+    }
+
+    .meGusta {
+        font-size: 20px;
+    }
+
+    .gustos li {
+        color: white;
+        font-size: 14px;
+        margin-left: 30px;
+        margin-right: 25px;
+    }
+
+    .dibujos {
+        display: block;
+    }
+
+    .dibujo {
+        width: 200px;
+        margin: 10px 80px;
+        height: auto;
+        border: 2px solid rgb(134, 113, 236,.5);
+    }
+
+    .videojuegos {
+        display: block;
+    }
+
+    .juego {
+        width: 200px;
+        margin: 10px 80px;
+        height: auto;
+        border: 2px solid rgb(134, 113, 236,.5);
+    }
+
+    .peliculas {
+        display: block;
+    }
+
+    .pelicula {
+        margin: 10px 80px;
+        width: 200px;
+        height: auto;
+        border: 2px solid rgb(134, 113, 236,.5);
+    }
+
+    .viajes {
+        display: block;
+    }
+
+    .polaroid {
+        width: 200px;
+        margin: 10px 80px;
+
+        text-align: center;
+        background: linear-gradient(180deg, rgba(72, 49, 157, 1) 66%, rgba(72, 49, 157, 0) 98%);
+        border: 2px solid rgb(134, 113, 236, .2);
+    }
+
+    .viaje {
+        width: 200px;
+        height: auto;
+    }
+
+    .caption{
+        height: 25px;
+    }
+
+    .caption p{
+        font-size: 15px;
+        height: 20px;
+        color: white;
+        margin-top: 0;
+    }
+
+    .video {
+        margin: 40px auto;
+        width: 310px;
+        height: 233px;
+        display: flex;
+    }
+
+    ul{
+        padding: 0;
+        
+    }
+    
 }
