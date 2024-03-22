@@ -127,7 +127,21 @@ h2 {
     background-color: rgb(255, 255, 255, .5);
 }
 
+.fila3 ol{
+    margin: 5;
+    text-align: justify;
+    margin-right: 40px;
+    padding-left: 20px
+
+}
+
 .fila4 td {
+    padding: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: rgb(255, 255, 255, .5);
+}
+
+.fila5 td {
     padding: 5px;
     border: 1px solid rgb(63, 63, 63);
     background-color: rgb(255, 255, 255, .5);
@@ -197,7 +211,8 @@ h2 {
     .fila1 th,
     .fila2 td,
     .fila3 td,
-    .fila4 td {
+    .fila4 td 
+    .fila5 td{
         font-size: 16px;
     }
 }
