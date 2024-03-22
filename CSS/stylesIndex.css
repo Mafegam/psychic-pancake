@@ -4,7 +4,7 @@
      margin: 0;
      max-height: 1080px;
  }
-
+/* SECCION CON JAVASCRIPT */
  .bienvenida {
      font-family: "Roboto", sans-serif;
      color: black;
@@ -15,12 +15,12 @@
      margin: 300px auto auto 120px;
 
  }
-
+/* GRACIAS POR VISITAR PAGINA */
  .textoBienvenida {
      margin: 20px auto auto 120px;
      font-size: 20px;
  }
-
+ /* CONTENEDOR DE BOTONES */
  .menuBotones {
      width: 300px;
      text-align: center;
@@ -116,7 +116,7 @@
      padding: 20px 50px;
      text-decoration: none;
  }
-
+/* BOTON AL HACERLE HOVER */
  .botonHover:hover {
      background-color: rgb(255, 255, 255, .5);
      color: black;
