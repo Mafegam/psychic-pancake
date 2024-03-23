@@ -88,7 +88,8 @@ h2 {
 }
 
 .peliculas {
-    
+    display: flex;
+    justify-content: center;
 }
 
 .pelicula {
